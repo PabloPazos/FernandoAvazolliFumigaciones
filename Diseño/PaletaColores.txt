@@ -1,0 +1,17 @@
+Button:
+  Hex:
+    #1d6b7a
+  RGB:
+    rgba(29,107,122,255)
+
+Paleta:
+#cad4d5
+#1c6c7c
+#7a8385
+#7eabb4
+#54949c
+#8bb4bc
+#3a7d8c
+#272727
+#4c4c4c
+#3c3c3c

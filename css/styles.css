@@ -1,0 +1,151 @@
+* {
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+.nav__2-bg {
+  background-image: url("../img/coronavirus_1440.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+}
+.nav__1 {
+  background-color: #1c6c7c;
+}
+.nav__2 .container a {
+  padding: 5px;
+}
+.nav__2 {
+  background-color: rgba(29, 107, 122, 255);
+  opacity: 0.5;
+  margin-bottom: 10em;
+}
+.btn__nav2 {
+  border-bottom: 3px solid transparent;
+}
+.btn__nav1:hover,
+.btn__nav1:active {
+  color: #1c6c7c !important;
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn__nav2:hover,
+.btn__nav2:active {
+  border-bottom: 3px solid;
+}
+.btn__presupuesto {
+  background-color: #1c6c7c;
+}
+.btn__presupuesto:hover {
+  border-color: #1c6c7c;
+  background-color: #f8f8ff;
+  color: #1c6c7c !important;
+  transition: 0.3s;
+}
+/* Sección sobre nosotros */
+
+.section__sobre-nosotros {
+  opacity: 0.8;
+}
+/* Servicios */
+
+.servicios__cards {
+  color: #f8f8ff;
+  background-color: #1c6c7c;
+  transition: 0.3s;
+}
+.servicios__cards:hover {
+  color: #1c6c7c !important;
+  background-color: #f8f8ff;
+}
+/* Sección contacto */
+
+.section__bg {
+  background-image: url("../img/bg_contacto4.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  height: 65vh;
+}
+.btn__modal {
+  color: #f8f8ff;
+  background-color: #1c6c7c;
+  border-color: #1c6c7c;
+  transition: 0.3s;
+}
+.btn__modal:hover {
+  color: #1c6c7c !important;
+  background-color: #f8f8ff !important;
+  border-color: #1c6c7c !important;
+}
+.contacto__form {
+  padding-top: 1.5em;
+}
+/* Footer */
+
+.footer__styles {
+  background-color: #1c6c7c !important;
+}
+.footer__logo {
+  width: 12em !important;
+  height: 2em !important;
+}
+/* Botón de whatsapp */
+
+.btn-redondo {
+  border-radius: 100%;
+}
+.btn-wpp {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+}
+/* Web Resizer: http://webresizer.com/resizer/ */
+
+/* Image resizer: https://web.dev/uses-optimized-images/?utm_source=lighthouse&utm_medium=devtools*/
+
+@media only screen and (max-width: 576px) {
+  .nav__2 {
+    margin-bottom: 0px;
+  }
+  .nav__2 div button {
+    margin: 5% 0 !important;
+  }
+  .btn__nav2:hover,
+  .btn__nav2:active {
+    border-bottom: 3px solid transparent;
+    border-color: rgba(29, 107, 122, 255);
+  }
+  .btn__presupuesto {
+    display: flex;
+    position: relative;
+  }
+  .card-body__presentacion h1 p {
+    margin-top: 0px;
+  }
+  .section__bg {
+    height: 100vh;
+    background-image: none;
+    background-color: #f8f9fa;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .section__bg {
+    height: 85vh;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .hero-covid-back {
+    background-image: url("coronavirus_1440.jpg");
+  }
+}
