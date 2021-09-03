@@ -110,9 +110,7 @@
   bottom: 20px;
   padding: 10px;
 }
-/* Web Resizer: http://webresizer.com/resizer/ */
-
-/* Image resizer: https://web.dev/uses-optimized-images/?utm_source=lighthouse&utm_medium=devtools*/
+/* Responsive */
 
 @media only screen and (max-width: 576px) {
   .nav__2 {
