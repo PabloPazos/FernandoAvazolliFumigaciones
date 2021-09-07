@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "eslint": "*",
+    "prettier": "*",
+    "babel-eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*"
+  },
+  "extends": ["plugin:prettier/recommended"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
