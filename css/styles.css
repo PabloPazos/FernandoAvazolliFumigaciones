@@ -135,7 +135,7 @@
     position: relative;
   }
   .nav__2-bg {
-    height: 75vh !important;
+    height: 85vh !important;
   }
   .card-body__presentacion h1 p {
     margin-top: 0px;
@@ -146,7 +146,7 @@
     background-color: #f8f9fa;
   }
   .btn__conociendonos {
-    top: 24em;
+    top: 31em;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
