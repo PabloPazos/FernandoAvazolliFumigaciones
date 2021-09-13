@@ -1,376 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <meta content="Author: Fernando Vadell, Control de Plagas en Buenos Aires, Argentina. Contacto por redes sociales." name="description"/>
-        <link href="css/normalize.css" rel="stylesheet"/>
-        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"/>
-        <link charset="utf-8" href="css/styles.css" media="screen" rel="stylesheet" title="no title" type="text/css"/>
-        <link href="https://fonts.googleapis.com" rel="preconnect"/>
-        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet"/>
-        <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
-        <title>
-            F.V. Control de Plagas
-        </title>
-    </head>
-    <body>
-        <!-- Navbar 1-->
-        <nav class="navbar navbar-expand-lg navbar-dark nav__1">
-            <div class="container">
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item text-align-center pe-2">
-                            <a class=" nav-link text-light fs-5 fw-bold d-flex align-items-center btn__nav1 " href="#">
-                                <i class="bi bi-whatsapp me-3 fs-1">
-                                </i>
-                                +54 9 11 4055-4187
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" nav-link text-light fs-5 fw-bold d-flex align-items-center btn__nav1 " href="#">
-                                <i class="bi bi-envelope me-3 fs-1">
-                                </i>
-                                fernandoavadell@gmail.com
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar 2-->
-        <div class="nav__2-bg">
-            <nav class="navbar navbar-expand-lg navbar-dark pe-5 pt-3 pt-sm-3 pt-md-3 pb-1 pb-md-3 pb-sm-3 nav__2">
-                <div class="container">
-                    <a class="navbar-brand fs-2 fw-bold border border-light border-3" href="#">
-                        F.V. Control de Plagas
-                    </a>
-                    <button class="navbar-toggler" data-bs-target="#navmenu" data-bs-toggle="collapse" type="button">
-                        <span class="navbar-toggler-icon">
-                        </span>
-                    </button>
-                    <div class="collapse navbar-collapse me-5" id="navmenu">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item me-2">
-                                <a class="nav-link text-light fs-5 me-5 fw-bold btn__nav2 active" href="#nosotros">
-                                    Nosotros
-                                </a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link text-light fs-5 me-5 fw-bold btn__nav2" href="#servicios">
-                                    Servicios
-                                </a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link text-light fs-5 me-6 fw-bold btn__nav2" href="#contacto">
-                                    Contacto
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="card-body text-center mt-5 mt-sm-1 card-body__presentacion">
-                <h1 class="card-title mt-lg-5 display-1 fw-bolder">
-                    Control de plagas en manos
-                    <br/>
-                    de expertos.
-                </h1>
-                <p class="card-text mt-5 mb-md-5 fs-1">
-                    Estamos acá para cuidarte.
-                </p>
-                <a class="btn btn-lg px-5 py-4 text-light mt-5 mt-sm-2 rounded-pill justify-content-center btn__presupuesto " href="#contacto">
-                    Solicitá tu presupuesto
-                </a>
-                <a class="btn position-absolute bottom-0 start-50 translate-middle-x fs-2 fw-bold btn__conociendonos" href="#nosotros">
-                    <i class="bi bi-arrow-down-circle me-3 fs-2 fw-bolder">
-                    </i>
-                    Seguí conociéndonos
-                </a>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Author: Fernando Vadell, Control de Plagas en Buenos Aires, Argentina. Contacto por redes sociales."
+      name="description"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      charset="utf-8"
+      href="css/styles.css"
+      media="screen"
+      rel="stylesheet"
+      title="no title"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>F.V. Control de Plagas</title>
+  </head>
+  <body>
+    <!-- Navbar 1-->
+    <nav class="navbar navbar-expand-lg navbar-dark nav__1">
+      <div class="container">
+        <div class="navbar-collapse">
+          <ul class="navbar-nav ms-auto" id="content-desktop">
+            <li class="nav-item text-align-center pe-2">
+              <a
+                class="
+                  nav-link
+                  text-light
+                  fs-5
+                  fw-bold
+                  d-flex
+                  align-items-center
+                  btn__nav1
+                "
+                href="#"
+              >
+                <i class="bi bi-whatsapp me-3 fs-1"> </i>
+                +54 9 11 4055-4187
+              </a>
+            </li>
+            <li class="nav-item" id="content-desktop">
+              <a
+                class="
+                  nav-link
+                  text-light
+                  fs-5
+                  fw-bold
+                  d-flex
+                  align-items-center
+                  btn__nav1
+                "
+                href="#"
+              >
+                <i class="bi bi-envelope me-3 fs-1"> </i>
+                fernandoavadell@gmail.com
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="navbar-nav ms-auto d-flex flex-row bd-highlight"
+            id="content-mobile"
+          >
+            <li class="nav-item text-align-center pe-2">
+              <a
+                class="
+                  nav-link
+                  text-light
+                  fs-5
+                  fw-bold
+                  d-flex
+                  align-items-center
+                  btn__nav1
+                "
+                href="#"
+              >
+                <i class="bi bi-whatsapp me-3 fs-1"> </i>
+                WhatsApp
+              </a>
+            </li>
+            <li class="nav-item text-align-center pe-2 ms-5">
+              <a
+                class="
+                  nav-link
+                  text-light
+                  fs-5
+                  fw-bold
+                  d-flex
+                  align-items-center
+                  btn__nav1
+                "
+                href="#"
+              >
+                <i class="bi bi-envelope me-3 fs-1"> </i>
+                Email
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- Nosotros -->
-        <section class="p-5 bg-light" id="nosotros">
-            <div class="container w-100">
-                <div class="row g-4 card-text justify-content-between">
-                    <div class="col-md section__sobre-nosotros">
-                        <h2 class="card-title mb-sm-2 mb-lg-1 mb-xl-5 display-4 fw-bolder">
-                            Sobre nosotros
-                        </h2>
-                        <p class="fs-2">
-                            Nos dedicamos a brindar el más completo servicio de control de
-                            plagas y es por eso que a la hora de realizar nuestros trabajos es
-                            muy importante para nosotros brindar las mejores soluciones a
-                            nuestros clientes.
-                        </p>
-                    </div>
-                    <div class="col-md">
-                        <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
-                            <div class="carousel-inner">
-                                <img class="carousel-item active"/>
-                                <img alt="..." class="d-block w-100" src="img/fumigacion_1.jpg"/>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="..." class="d-block w-100" src="img/fumigacion_2.jpg"/>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="..." class="d-block w-100" src="img/fumigacion_3.jpg"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Servicios -->
-        <section class="p-5 mb-5" id="servicios">
-            <div class="container">
-                <h2 class="card-title mb-sm-2 mb-5 display-4 fw-bolder">
-                    Servicios
-                </h2>
-                <div class="row text-center g-4">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card servicios__cards">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <img alt="..." class="img-thumbnail" src="img/Rata.png"/>
-                                </div>
-                                <h3 class="card-title mb-3 fw-bold">
-                                    Desratización
-                                </h3>
-                                <p class="card-text">
-                                    Servicio de control de roedores, comprende la colocación, control y reposición de cebos rodenticidas, placas adhesivas o tramperas tradicionales en cajas cebaderas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card servicios__cards">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <img alt="..." class="img-thumbnail" src="img/Cucaracha.png"/>
-                                </div>
-                                <h3 class="card-title mb-3 fw-bold">
-                                    Desinsectación
-                                </h3>
-                                <p class="card-text">
-                                    Control integral de insectos en el ámbito hogar, negocios gastronómicos e industrias, implica la aplicación de insecticidas con pulverizadores manuales, eléctricos o a motor dependiendo de lo que requiera la situación.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card servicios__cards">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <img alt="..." class="img-thumbnail" src="img/virus.png"/>
-                                </div>
-                                <h3 class="card-title mb-3 fw-bold">
-                                    Servicios de Desinfección
-                                </h3>
-                                <p class="card-text">
-                                    Aplicación de desinfectante para virus y bacterias que puedan haber en el o los ambientes.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card servicios__cards">
-                            <div class="card-body text-center">
-                                <div class="h1 mb-3">
-                                    <img alt="..." class="img-thumbnail" src="img/Paloma.jpg"/>
-                                </div>
-                                <h3 class="card-title mb-3 fw-bold">
-                                    Control de palomas
-                                </h3>
-                                <p class="card-text">
-                                    Colocación de ganchos o redes para palomas en balcones de forma de ahuyentar a las mismas y evitar su regreso.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contacto -->
-        <section class="p-5 section__bg" id="contacto">
-            <div class="container">
-                <h2 class="card-title mb-lg-5 display-4 fw-bolder">
-                    Hacenos tu consulta
-                </h2>
-                <div class="row">
-                    <div class="col-md-7 contacto__form">
-                        <div class="row">
-                            <div class="mb-3" div="">
-                                <input class="form-control fw-bold" id="name" placeholder="Nombre y apellido" type="text"/>
-                            </div>
-                            <div class="col-md mb-3">
-                                <input class="form-control fw-bold" id="emailAddress" placeholder="Email" type="email"/>
-                            </div>
-                            <div class="col-md mb-3">
-                                <input class="form-control fw-bold" name="phone" placeholder="Teléfono" type="phone"/>
-                            </div>
-                            <div class="mb-2 form-floating">
-                                <textarea class="form-control fw-bold" id="msj" placeholder="Cómo podemos ayudarte?" rows="6">
-                                </textarea>
-                            </div>
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button class="btn btn__modal col-12 col-sm-12 col-md-2 mt-3" data-bs-target="#exampleModal" data-bs-toggle="modal" type="button">
-                            Enviar
-                        </button>
-                        <!-- Modal -->
-                        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">
-                                            F.V. Control de Plagas
-                                        </h5>
-                                        <button aria-label="Close" class="btn-close btn__modal" data-bs-dismiss="modal" type="button">
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Desea modificar algo de su consulta?
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn__modal" data-bs-dismiss="modal" type="button">
-                                            Cerrar
-                                        </button>
-                                        <button class="btn btn__modal" type="button">
-                                            Enviar
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 mt-3 consulta__info">
-                        <div class="ml-5 container-fluid">
-                            <div class="mb-3 ml-5 align-items-center">
-                                <span class="fw-bold">
-                                    <i class="bi bi-geo-alt-fill me-3 fs-4">
-                                    </i>
-                                    Villa Urquiza, CABA, Argentina.
-                                </span>
-                            </div>
-                            <div class="mb-3 ml-5 align-items-center">
-                                <span class="fw-bold">
-                                    <i class="bi bi-clock-fill me-3 fs-4">
-                                    </i>
-                                    Lun. a Vie. 8hs a 18hs. / Sáb. 8:30hs a 13hs.
-                                </span>
-                            </div>
-                            <div class="mb-3 ml-5 align-items-center">
-                                <span class="fw-bold">
-                                    <i class="bi bi-envelope-fill me-3 fs-4">
-                                    </i>
-                                    consultas@fumigaciones.com.ar
-                                </span>
-                            </div>
-                            <div class="mb-3 ml-5 align-items-center">
-                                <span class="fw-bold">
-                                    <i class="bi bi-telephone-fill me-3 fs-4">
-                                    </i>
-                                    Teléfono: +54 9 11 6308-0879
-                                </span>
-                            </div>
-                            <div class="mb-3 ml-5 align-items-center">
-                                <span class="fw-bold">
-                                    <i class="bi bi-currency-dollar me-3 fs-4">
-                                    </i>
-                                </span>
-                                <img alt="..." class="rounded mx-auto mb-2" src="img/visa.jpg"/>
-                                <img alt="..." class="rounded mx-auto mb-2" src="img/american_express.jpg"/>
-                                <img alt="..." class="rounded mx-auto mb-2" src="img/mastercard.jpg"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-        <footer class="bg-light text-light py-4 footer__styles">
-            <div class="container-fluid">
-                <nav class="row">
-                    <div class="col-12 col-sm-4 col-md-4 d-flex align-items-center flex-column">
-                        <div class=" border border-light border-3 d-flex align-items-center justify-content-center footer__logo ">
-                            <a class="text-reset fw-bold text-decoration-none" href="">
-                                F.V. Control de Plagas
-                            </a>
-                        </div>
-                        <div class="d-flex d-flex align-items-left flex-column mt-3">
-                            <p class="fw-bold">
-                                Fernando Avazolli
-                            </p>
-                            <p class="fw-bold">
-                                Asesoramiento
-                                <br/>
-                                y presupuestos
-                            </p>
-                            <p class="fw-bold">
-                                Matrícula: ********
-                            </p>
-                        </div>
-                    </div>
-                    <ul class="col-6 col-sm-4 col-md-4 list-unstyled d-flex align-items-center flex-column mt-3 ">
-                        <li class="font-weight-bold text-uppercase fw-bold">
-                            Secciones
-                        </li>
-                        <li class="mt-1">
-                            <a class="nav-link text-reset text-decoration-none" href="#nosotros">
-                                Nosotros
-                            </a>
-                        </li>
-                        <li class="mt-1">
-                            <a class="nav-link text-reset text-decoration-none" href="#servicios">
-                                Servicios
-                            </a>
-                        </li>
-                        <li class="mt-1">
-                            <a class="nav-link text-reset text-decoration-none" contacto="" href="#contacto">
-                                Contacto
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="col-6 col-sm-4 col-md-4 list-unstyled d-flex align-items-center flex-column mt-3 ">
-                        <li class="font-weight-bold text-uppercase fw-bold">
-                            Redes sociales
-                        </li>
-                        <li class="d-flex align-items-center flex-column">
-                            <a class="text-reset mt-3" href="https://www.facebook.com/FVcontroldeplagas" target="_blank">
-                                <i class="bi bi-facebook">
-                                </i>
-                            </a>
-                            <a class="text-reset mt-3" href="https://www.instagram.com/fvcontroldeplagas/" target="_blank">
-                                <i class="bi bi-instagram">
-                                </i>
-                            </a>
-                            <a class="text-reset mt-3" href="https://www.linkedin.com/company/f-v-control-de-plagas/" target="_blank">
-                                <i class="bi bi-linkedin">
-                                </i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </footer>
-        <a class="btn btn-success btn-redondo btn-wpp" href="https://wa.me/+541161831648?text='Enviame%20tu%20mensaje%20para%20más%20información.'" name="Escribime por Whatsapp" rel="noopener" target="_blank">
-            <span style="display: none">
-                Escribime por Whatsapp
-            </span>
-            <svg class="bi bi-whatsapp" fill="currentColor" height="25" viewbox="0 0 16 16" width="25" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
-                </path>
-            </svg>
+      </div>
+    </nav>
+    <!-- Navbar 2-->
+    <div class="nav__2-bg">
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark
+          pe-5
+          pt-3 pt-sm-3 pt-md-3
+          pb-1 pb-md-3 pb-sm-3
+          nav__2
+        "
+      >
+        <div class="container">
+          <a
+            class="navbar-brand fs-2 fw-bold border border-light border-3"
+            href="#"
+          >
+            F.V. Control de Plagas
+          </a>
+          <button
+            class="navbar-toggler"
+            data-bs-target="#navmenu"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse me-5" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-2">
+                <a
+                  class="nav-link text-light fs-5 me-5 fw-bold btn__nav2 active"
+                  href="#nosotros"
+                >
+                  Nosotros
+                </a>
+              </li>
+              <li class="nav-item me-2">
+                <a
+                  class="nav-link text-light fs-5 me-5 fw-bold btn__nav2"
+                  href="#servicios"
+                >
+                  Servicios
+                </a>
+              </li>
+              <li class="nav-item me-2">
+                <a
+                  class="nav-link text-light fs-5 me-6 fw-bold btn__nav2"
+                  href="#contacto"
+                >
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="card-body text-center mt-5 mt-sm-1 card-body__presentacion">
+        <h1 class="card-title mt-lg-5 display-1 fw-bolder">
+          Control de plagas en manos
+          <br />
+          de expertos.
+        </h1>
+        <p class="card-text mt-5 mb-md-5 fs-1">Estamos acá para cuidarte.</p>
+        <a
+          class="
+            btn btn-lg
+            px-5
+            py-4
+            text-light
+            mt-5 mt-sm-2
+            rounded-pill
+            justify-content-center
+            btn__presupuesto
+          "
+          href="#contacto"
+        >
+          Solicitá tu presupuesto
         </a>
-        <script crossorigin="anonymous" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
-        </script>
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/a4898f7598.js">
-        </script>
-        <script src="js/javascript.js">
-        </script>
-    </body>
+        <a
+          class="
+            btn
+            position-absolute
+            bottom-0
+            start-50
+            translate-middle-x
+            fs-2
+            fw-bold
+            btn__conociendonos
+          "
+          href="#nosotros"
+        >
+          <i class="bi bi-arrow-down-circle me-3 fs-2 fw-bolder"> </i>
+          Seguí conociéndonos
+        </a>
+      </div>
+    </div>
+    <!-- Nosotros -->
+    <section class="p-5 bg-light" id="nosotros">
+      <div class="container w-100">
+        <div class="row g-4 card-text justify-content-between">
+          <div class="col-md section__sobre-nosotros">
+            <h2 class="card-title mb-sm-2 mb-lg-1 mb-xl-5 display-4 fw-bolder">
+              Sobre nosotros
+            </h2>
+            <p class="fs-2">
+              Nos dedicamos a brindar el más completo servicio de control de
+              plagas y es por eso que a la hora de realizar nuestros trabajos es
+              muy importante para nosotros brindar las mejores soluciones a
+              nuestros clientes.
+            </p>
+          </div>
+          <div class="col-md">
+            <div
+              class="carousel slide"
+              data-bs-ride="carousel"
+              id="carouselExampleSlidesOnly"
+            >
+              <div class="carousel-inner">
+                <img class="carousel-item active" />
+                <img
+                  alt="..."
+                  class="d-block w-100"
+                  src="img/fumigacion_1.jpg"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  alt="..."
+                  class="d-block w-100"
+                  src="img/fumigacion_2.jpg"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  alt="..."
+                  class="d-block w-100"
+                  src="img/fumigacion_3.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Servicios -->
+    <section class="p-5 mb-5" id="servicios">
+      <div class="container">
+        <h2 class="card-title mb-sm-2 mb-5 display-4 fw-bolder">Servicios</h2>
+        <div class="row text-center g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card servicios__cards">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img alt="..." class="img-thumbnail" src="img/Rata.png" />
+                </div>
+                <h3 class="card-title mb-3 fw-bold">Desratización</h3>
+                <p class="card-text">
+                  Servicio de control de roedores, comprende la colocación,
+                  control y reposición de cebos rodenticidas, placas adhesivas o
+                  tramperas tradicionales en cajas cebaderas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card servicios__cards">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    alt="..."
+                    class="img-thumbnail"
+                    src="img/Cucaracha.png"
+                  />
+                </div>
+                <h3 class="card-title mb-3 fw-bold">Desinsectación</h3>
+                <p class="card-text">
+                  Control integral de insectos en el ámbito hogar, negocios
+                  gastronómicos e industrias, implica la aplicación de
+                  insecticidas con pulverizadores manuales, eléctricos o a motor
+                  dependiendo de lo que requiera la situación.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card servicios__cards">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img alt="..." class="img-thumbnail" src="img/virus.png" />
+                </div>
+                <h3 class="card-title mb-3 fw-bold">
+                  Servicios de Desinfección
+                </h3>
+                <p class="card-text">
+                  Aplicación de desinfectante para virus y bacterias que puedan
+                  haber en el o los ambientes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card servicios__cards">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img alt="..." class="img-thumbnail" src="img/Paloma.jpg" />
+                </div>
+                <h3 class="card-title mb-3 fw-bold">Control de palomas</h3>
+                <p class="card-text">
+                  Colocación de ganchos o redes para palomas en balcones de
+                  forma de ahuyentar a las mismas y evitar su regreso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto -->
+    <section class="p-5 section__bg" id="contacto">
+      <div class="container">
+        <h2 class="card-title mb-lg-5 display-4 fw-bolder">
+          Hacenos tu consulta
+        </h2>
+        <div class="row">
+          <div class="col-md-7 contacto__form">
+            <div class="row">
+              <div class="mb-3" div="">
+                <input
+                  class="form-control fw-bold"
+                  id="name"
+                  placeholder="Nombre y apellido"
+                  type="text"
+                />
+              </div>
+              <div class="col-md mb-3">
+                <input
+                  class="form-control fw-bold"
+                  id="emailAddress"
+                  placeholder="Email"
+                  type="email"
+                />
+              </div>
+              <div class="col-md mb-3">
+                <input
+                  class="form-control fw-bold"
+                  name="phone"
+                  placeholder="Teléfono"
+                  type="phone"
+                />
+              </div>
+              <div class="mb-2 form-floating">
+                <textarea
+                  class="form-control fw-bold"
+                  id="msj"
+                  placeholder="Cómo podemos ayudarte?"
+                  rows="6"
+                >
+                </textarea>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button
+              class="btn btn__modal col-12 col-sm-12 col-md-2 mt-3"
+              data-bs-target="#exampleModal"
+              data-bs-toggle="modal"
+              type="button"
+            >
+              Enviar
+            </button>
+            <!-- Modal -->
+            <div
+              aria-hidden="true"
+              aria-labelledby="exampleModalLabel"
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      F.V. Control de Plagas
+                    </h5>
+                    <button
+                      aria-label="Close"
+                      class="btn-close btn__modal"
+                      data-bs-dismiss="modal"
+                      type="button"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Desea modificar algo de su consulta?
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn__modal"
+                      data-bs-dismiss="modal"
+                      type="button"
+                    >
+                      Cerrar
+                    </button>
+                    <button class="btn btn__modal" type="button">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mt-3 consulta__info">
+            <div class="ml-5 container-fluid">
+              <div class="mb-3 ml-5 align-items-center">
+                <span class="fw-bold">
+                  <i class="bi bi-geo-alt-fill me-3 fs-4"> </i>
+                  Villa Urquiza, CABA, Argentina.
+                </span>
+              </div>
+              <div class="mb-3 ml-5 align-items-center">
+                <span class="fw-bold">
+                  <i class="bi bi-clock-fill me-3 fs-4"> </i>
+                  Lun. a Vie. 8hs a 18hs. / Sáb. 8:30hs a 13hs.
+                </span>
+              </div>
+              <div class="mb-3 ml-5 align-items-center">
+                <span class="fw-bold">
+                  <i class="bi bi-envelope-fill me-3 fs-4"> </i>
+                  consultas@fumigaciones.com.ar
+                </span>
+              </div>
+              <div class="mb-3 ml-5 align-items-center">
+                <span class="fw-bold">
+                  <i class="bi bi-telephone-fill me-3 fs-4"> </i>
+                  Teléfono: +54 9 11 6308-0879
+                </span>
+              </div>
+              <div class="mb-3 ml-5 align-items-center">
+                <span class="fw-bold">
+                  <i class="bi bi-currency-dollar me-3 fs-4"> </i>
+                </span>
+                <img
+                  alt="..."
+                  class="rounded mx-auto mb-2"
+                  src="img/visa.jpg"
+                />
+                <img
+                  alt="..."
+                  class="rounded mx-auto mb-2"
+                  src="img/american_express.jpg"
+                />
+                <img
+                  alt="..."
+                  class="rounded mx-auto mb-2"
+                  src="img/mastercard.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-light text-light py-4 footer__styles">
+      <div class="container-fluid">
+        <nav class="row">
+          <div
+            class="
+              col-12 col-sm-4 col-md-4
+              d-flex
+              align-items-center
+              flex-column
+            "
+          >
+            <div
+              class="
+                border border-light border-3
+                d-flex
+                align-items-center
+                justify-content-center
+                footer__logo
+              "
+            >
+              <a class="text-reset fw-bold text-decoration-none" href="">
+                F.V. Control de Plagas
+              </a>
+            </div>
+            <div class="d-flex d-flex align-items-left flex-column mt-3">
+              <p class="fw-bold">Fernando Avazolli</p>
+              <p class="fw-bold">
+                Asesoramiento
+                <br />
+                y presupuestos
+              </p>
+              <p class="fw-bold">Matrícula: ********</p>
+            </div>
+          </div>
+          <ul
+            class="
+              col-6 col-sm-4 col-md-4
+              list-unstyled
+              d-flex
+              align-items-center
+              flex-column
+              mt-3
+            "
+          >
+            <li class="font-weight-bold text-uppercase fw-bold">Secciones</li>
+            <li class="mt-1">
+              <a
+                class="nav-link text-reset text-decoration-none"
+                href="#nosotros"
+              >
+                Nosotros
+              </a>
+            </li>
+            <li class="mt-1">
+              <a
+                class="nav-link text-reset text-decoration-none"
+                href="#servicios"
+              >
+                Servicios
+              </a>
+            </li>
+            <li class="mt-1">
+              <a
+                class="nav-link text-reset text-decoration-none"
+                contacto=""
+                href="#contacto"
+              >
+                Contacto
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="
+              col-6 col-sm-4 col-md-4
+              list-unstyled
+              d-flex
+              align-items-center
+              flex-column
+              mt-3
+            "
+          >
+            <li class="font-weight-bold text-uppercase fw-bold">
+              Redes sociales
+            </li>
+            <li class="d-flex align-items-center flex-column">
+              <a
+                class="text-reset mt-3"
+                href="https://www.facebook.com/FVcontroldeplagas"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"> </i>
+              </a>
+              <a
+                class="text-reset mt-3"
+                href="https://www.instagram.com/fvcontroldeplagas/"
+                target="_blank"
+              >
+                <i class="bi bi-instagram"> </i>
+              </a>
+              <a
+                class="text-reset mt-3"
+                href="https://www.linkedin.com/company/f-v-control-de-plagas/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"> </i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <a
+      class="btn btn-success btn-redondo btn-wpp"
+      href="https://wa.me/+541161831648?text='Enviame%20tu%20mensaje%20para%20más%20información.'"
+      name="Escribime por Whatsapp"
+      rel="noopener"
+      target="_blank"
+    >
+      <span style="display: none"> Escribime por Whatsapp </span>
+      <svg
+        class="bi bi-whatsapp"
+        fill="currentColor"
+        height="25"
+        viewbox="0 0 16 16"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+        ></path>
+      </svg>
+    </a>
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/a4898f7598.js"
+    ></script>
+    <script src="js/javascript.js"></script>
+  </body>
 </html>

@@ -1,6 +1,10 @@
 * {
   font-family: "Nunito Sans", Arial, sans-serif;
 }
+
+#content-mobile {
+  display: none !important;
+}
 .nav__2-bg {
   background-image: url("../img/coronavirus_1440.jpg");
   height: 100vh;
@@ -119,6 +123,12 @@
 /* Responsive */
 
 @media only screen and (max-width: 576px) {
+  #content-desktop {
+    display: none;
+  }
+  #content-mobile {
+    display: flex !important;
+  }
   .nav__2 {
     margin-bottom: 0px;
   }
@@ -132,10 +142,10 @@
   }
   .btn__presupuesto {
     display: flex;
-    position: relative;
   }
   .nav__2-bg {
-    height: 85vh !important;
+    height: 120vh !important;
+    object-fit: fill;
   }
   .card-body__presentacion h1 p {
     margin-top: 0px;
