@@ -139,9 +139,13 @@
   .nav__2 {
     margin-bottom: 0px;
     padding-top: 3px !important;
+    padding-right: 0 !important;
   }
-  .nav__2 div button {
-    margin: 5% 0 !important;
+  .nav__2-mobile {
+    padding: 7px 0;
+  }
+  .nav__icono {
+    margin-right: 0 !important;
   }
   .btn__nav2:hover,
   .btn__nav2:active {
