@@ -5,6 +5,9 @@
 #content-mobile {
   display: none !important;
 }
+.nav__2-mobile {
+  padding: 0 4px;
+}
 .nav__2-bg {
   background-image: url("../img/coronavirus_1440.jpg");
   height: 100vh;
@@ -18,6 +21,7 @@
 .nav__1 {
   background-color: #1c6c7c;
 }
+
 .nav__2 .container a {
   padding: 5px;
 }
@@ -123,6 +127,9 @@
 /* Responsive */
 
 @media only screen and (max-width: 576px) {
+  .nav__icono {
+    margin-left: 0;
+  }
   #content-desktop {
     display: none;
   }
@@ -131,6 +138,7 @@
   }
   .nav__2 {
     margin-bottom: 0px;
+    padding-top: 3px !important;
   }
   .nav__2 div button {
     margin: 5% 0 !important;
