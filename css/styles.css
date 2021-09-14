@@ -154,6 +154,7 @@
   .nav__2-bg {
     height: 100vh !important;
     object-fit: fill;
+    background-image: url("../img/nosotros_responsive.jpg");
   }
   .card-body__presentacion h1 p {
     margin-top: 0px;
@@ -173,6 +174,9 @@
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   .section__bg {
     height: 85vh;
+  }
+  .nav__2-bg {
+    background-image: url("../img/nosotros_responsive_tablet.jpg");
   }
 }
 @media only screen and (min-width: 993px) {
