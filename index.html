@@ -232,42 +232,87 @@
             <h2 class="card-title mb-sm-2 mb-lg-1 mb-xl-5 display-4 fw-bolder">
               Sobre nosotros
             </h2>
-            <p class="fs-2">
+            <p class="fs-2 parrafo__nosotros">
               Nos dedicamos a brindar el más completo servicio de control de
               plagas y es por eso que a la hora de realizar nuestros trabajos es
               muy importante para nosotros brindar las mejores soluciones a
               nuestros clientes.
             </p>
           </div>
-          <div class="col-md">
-            <div
-              class="carousel slide"
-              data-bs-ride="carousel"
-              id="carouselExampleSlidesOnly"
-            >
-              <div class="carousel-inner">
-                <img class="carousel-item active" />
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide col-md"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <img
-                  alt="..."
-                  class="d-block w-100"
                   src="img/fumigacion_1.jpg"
+                  class="d-block w-100"
+                  alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  alt="..."
-                  class="d-block w-100"
                   src="img/fumigacion_2.jpg"
+                  class="d-block w-100"
+                  alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  alt="..."
-                  class="d-block w-100"
                   src="img/fumigacion_3.jpg"
+                  class="d-block w-100"
+                  alt="..."
                 />
               </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>

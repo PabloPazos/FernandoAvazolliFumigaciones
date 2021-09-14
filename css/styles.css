@@ -159,8 +159,11 @@
   .card-body__presentacion h1 p {
     margin-top: 0px;
   }
+  .parrafo__nosotros {
+    text-align: center;
+  }
   .h2__servicios {
-    margin-left: 19vw;
+    margin-left: 15vw;
   }
   .section__bg {
     height: 80vh !important;
@@ -174,6 +177,9 @@
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   .section__bg {
     height: 85vh;
+  }
+  .btn__conociendonos {
+    top: 27em;
   }
   .nav__2-bg {
     background-image: url("../img/nosotros_responsive_tablet.jpg");
