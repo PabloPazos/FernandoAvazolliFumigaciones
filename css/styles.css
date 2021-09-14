@@ -53,6 +53,7 @@
   color: #1c6c7c !important;
   transition: 0.3s;
 }
+
 /* Sección sobre nosotros */
 
 .section__sobre-nosotros {
@@ -98,9 +99,6 @@
 .contacto__form {
   padding-top: 1.5em;
 }
-/*.consulta__info {
-  height: auto;
-}*/
 
 /* Footer */
 
@@ -128,7 +126,8 @@
 
 @media only screen and (max-width: 576px) {
   .nav__icono {
-    margin-left: 0;
+    margin-left: 3px;
+    margin-right: 0 !important;
   }
   #content-desktop {
     display: none;
@@ -144,9 +143,6 @@
   .nav__2-mobile {
     padding: 7px 0;
   }
-  .nav__icono {
-    margin-right: 0 !important;
-  }
   .btn__nav2:hover,
   .btn__nav2:active {
     border-bottom: 3px solid transparent;
@@ -156,7 +152,7 @@
     display: flex;
   }
   .nav__2-bg {
-    height: 120vh !important;
+    height: 100vh !important;
     object-fit: fill;
   }
   .card-body__presentacion h1 p {
@@ -168,7 +164,7 @@
     background-color: #f8f9fa;
   }
   .btn__conociendonos {
-    top: 31em;
+    top: 23em;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
