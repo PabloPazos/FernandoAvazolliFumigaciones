@@ -1,7 +1,6 @@
 * {
   font-family: "Nunito Sans", Arial, sans-serif;
 }
-
 #content-mobile {
   display: none !important;
 }
@@ -21,7 +20,6 @@
 .nav__1 {
   background-color: #1c6c7c;
 }
-
 .nav__2 .container a {
   padding: 5px;
 }
@@ -55,25 +53,18 @@
 }
 
 /* Sección sobre nosotros */
-
 .section__sobre-nosotros {
   opacity: 0.8;
 }
-/* Servicios */
 
+/* Servicios */
 .servicios__cards {
   color: #1c6c7c;
-  /*background-color: #1c6c7c;*/
   border-style: none;
   transition: 0.3s;
 }
-/*.servicios__cards:hover {
-  color: #1c6c7c !important;
-  background-color: #f8f8ff;
-}*/
 
 /* Sección contacto */
-
 .section__bg {
   background-image: url("../img/bg_contacto4.jpg");
   height: 100vh;
@@ -101,7 +92,6 @@
 }
 
 /* Footer */
-
 .footer__styles {
   background-color: #1c6c7c !important;
 }
@@ -109,8 +99,8 @@
   width: 12em !important;
   height: 2em !important;
 }
-/* Botón de whatsapp */
 
+/* Botón de whatsapp */
 .btn-redondo {
   border-radius: 100%;
 }
@@ -122,8 +112,8 @@
   bottom: 20px;
   padding: 10px;
 }
-/* Responsive */
 
+/* Responsive */
 @media only screen and (max-width: 576px) {
   .nav__icono {
     margin-left: 3px;
@@ -151,6 +141,9 @@
   .btn__presupuesto {
     display: flex;
   }
+  .btn__nav1 {
+    padding: 4px !important;
+  }
   .nav__2-bg {
     height: 100vh !important;
     object-fit: fill;
@@ -162,11 +155,14 @@
   .parrafo__nosotros {
     text-align: center;
   }
+  .section__servicios {
+    margin-bottom: 0 !important;
+  }
   .h2__servicios {
     margin-left: 15vw;
   }
   .section__bg {
-    height: 80vh !important;
+    height: 130vh !important;
     background-image: none;
     background-color: #f8f9fa;
   }
@@ -189,7 +185,4 @@
   .hero-covid-back {
     background-image: url("coronavirus_1440.jpg");
   }
-  /*  .servicios__cards {
-    height: 28em;
-  }*/
 }
