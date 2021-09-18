@@ -1,6 +1,14 @@
 * {
   font-family: "Nunito Sans", Arial, sans-serif;
 }
+
+.AlignItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 #content-mobile {
   display: none !important;
 }
@@ -9,7 +17,7 @@
 }
 .nav__2-bg {
   background-image: url("../img/coronavirus_1440.jpg");
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +34,6 @@
 .nav__2 {
   background-color: rgba(29, 107, 122, 255);
   opacity: 0.5;
-  margin-bottom: 10em;
 }
 .btn__nav2 {
   border-bottom: 3px solid transparent;
@@ -44,6 +51,10 @@
 }
 .btn__presupuesto {
   background-color: #1c6c7c;
+}
+.btn__conociendonos {
+  bottom: 0;
+  position: sticky;
 }
 .btn__presupuesto:hover {
   border-color: #1c6c7c;
@@ -67,14 +78,12 @@
 /* Sección contacto */
 .section__bg {
   background-image: url("../img/bg_contacto4.jpg");
-  height: 100vh;
   position: relative;
   background-position: inherit;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
-  height: 65vh;
 }
 .btn__modal {
   color: #f8f8ff;
@@ -126,7 +135,6 @@
     display: flex !important;
   }
   .nav__2 {
-    margin-bottom: 0px;
     padding-top: 3px !important;
     padding-right: 0 !important;
   }
@@ -138,14 +146,10 @@
     border-bottom: 3px solid transparent;
     border-color: rgba(29, 107, 122, 255);
   }
-  .btn__presupuesto {
-    display: flex;
-  }
   .btn__nav1 {
     padding: 4px !important;
   }
   .nav__2-bg {
-    height: 100vh !important;
     object-fit: fill;
     background-image: url("../img/nosotros_responsive.jpg");
   }
@@ -161,22 +165,8 @@
   .h2__servicios {
     margin-left: 15vw;
   }
-  .section__bg {
-    height: 130vh !important;
-    background-image: none;
-    background-color: #f8f9fa;
-  }
-  .btn__conociendonos {
-    top: 24em;
-  }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-  .section__bg {
-    height: 85vh;
-  }
-  .btn__conociendonos {
-    top: 27em;
-  }
   .nav__2-bg {
     background-image: url("../img/nosotros_responsive_tablet.jpg");
   }
