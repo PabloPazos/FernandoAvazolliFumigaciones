@@ -1,14 +1,12 @@
 * {
   font-family: "Nunito Sans", Arial, sans-serif;
 }
-
 .AlignItems {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
 }
-
 #content-mobile {
   display: none !important;
 }
@@ -25,9 +23,6 @@
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
 }
-.nav__1 {
-  background-color: #1c6c7c;
-}
 .nav__2 .container a {
   padding: 5px;
 }
@@ -37,13 +32,6 @@
 }
 .btn__nav2 {
   border-bottom: 3px solid transparent;
-}
-.btn__nav1:hover,
-.btn__nav1:active {
-  color: #1c6c7c !important;
-  background-color: #f8f8ff;
-  border-radius: 5px;
-  transition: 0.3s;
 }
 .btn__nav2:hover,
 .btn__nav2:active {
@@ -146,9 +134,6 @@
     border-bottom: 3px solid transparent;
     border-color: rgba(29, 107, 122, 255);
   }
-  .btn__nav1 {
-    padding: 4px !important;
-  }
   .nav__2-bg {
     object-fit: fill;
     background-image: url("../img/nosotros_responsive.jpg");
@@ -164,6 +149,17 @@
   }
   .h2__servicios {
     margin-left: 15vw;
+  }
+  .section__sobre-nosotros h2 {
+    width: 8em;
+  }
+  .consulta__info {
+    max-width: none;
+    padding-left: 0;
+    width: auto;
+  }
+  .consulta__info .container-fluid {
+    padding: 0 !important;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
