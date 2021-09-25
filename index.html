@@ -15,8 +15,8 @@
       rel="stylesheet"
     />
     <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
     />
     <link
       charset="utf-8"
@@ -56,8 +56,8 @@
               border border-light border-3
               nav__icono
             "
-            name="Inicio"
             href="#"
+            name="Inicio"
           >
             F.V. Control de Plagas
           </a>
@@ -65,12 +65,11 @@
             class="navbar-toggler"
             data-bs-target="#navmenu"
             data-bs-toggle="collapse"
-            type="button"
             name="navbar toggler"
+            type="button"
           >
             <span class="navbar-toggler-icon"> </span>
           </button>
-
           <div class="collapse navbar-collapse me-5" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item me-2">
@@ -101,22 +100,18 @@
           </div>
         </div>
       </nav>
-
       <div>
         <h1 class="card-title mt-lg-5 display-1 fw-bolder">
           Control de plagas en manos de expertos.
         </h1>
-
         <p class="card-text mt-5 mb-md-5 fs-1">Estamos acá para cuidarte.</p>
       </div>
-
       <a
         class="btn btn-lg px-5 py-4 text-light rounded-pill btn__presupuesto"
         href="#contacto"
       >
         Solicitá tu presupuesto
       </a>
-
       <div style="padding-bottom: 50px">
         <a class="btn fs-2 fw-bold" href="#nosotros">
           <i class="bi bi-arrow-down-circle me-3 fs-2 fw-bolder"> </i>
@@ -124,7 +119,6 @@
         </a>
       </div>
     </section>
-
     <!-- Nosotros -->
     <section class="p-5 bg-light" id="nosotros">
       <div class="container w-100">
@@ -139,87 +133,81 @@
               soluciones a nuestros clientes.
             </p>
           </div>
-
           <!-- Carrousel -->
           <div
-            id="carouselExampleIndicators"
             class="carousel slide col-md"
             data-bs-ride="carousel"
+            id="carouselExampleIndicators"
           >
             <div class="carousel-indicators">
               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
                 aria-current="true"
                 aria-label="Slide 1"
+                class="active"
+                data-bs-slide-to="0"
+                data-bs-target="#carouselExampleIndicators"
+                type="button"
               ></button>
               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
                 aria-label="Slide 2"
+                data-bs-slide-to="1"
+                data-bs-target="#carouselExampleIndicators"
+                type="button"
               ></button>
               <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
                 aria-label="Slide 3"
+                data-bs-slide-to="2"
+                data-bs-target="#carouselExampleIndicators"
+                type="button"
               ></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
+                  alt="..."
+                  class="d-block w-100"
                   src="img/fumigacion_1.jpg"
-                  class="d-block w-100"
-                  alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
+                  alt="..."
+                  class="d-block w-100"
                   src="img/fumigacion_2.jpg"
-                  class="d-block w-100"
-                  alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="img/fumigacion_3.jpg"
-                  class="d-block w-100"
                   alt="..."
+                  class="d-block w-100"
+                  src="img/fumigacion_3.jpg"
                 />
               </div>
             </div>
             <button
               class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
               data-bs-slide="prev"
+              data-bs-target="#carouselExampleIndicators"
+              type="button"
             >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
+              <span aria-hidden="true" class="carousel-control-prev-icon">
+              </span>
+              <span class="visually-hidden"> Previous </span>
             </button>
             <button
               class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
               data-bs-slide="next"
+              data-bs-target="#carouselExampleIndicators"
+              type="button"
             >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
+              <span aria-hidden="true" class="carousel-control-next-icon">
+              </span>
+              <span class="visually-hidden"> Next </span>
             </button>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Servicios -->
     <section class="p-5 mb-5 section__servicios" id="servicios">
       <div class="container">
@@ -291,153 +279,176 @@
         </div>
       </div>
     </section>
-
     <!-- Contacto -->
     <section class="p-5 section__bg" id="contacto">
       <div class="container">
         <h2 class="card-title mb-lg-5 display-4 fw-bolder">
           Hacenos tu consulta
         </h2>
-        <div class="row">
-          <div class="col-md-7 contacto__form">
-            <div class="row">
-              <div class="mb-3" div="">
-                <input
-                  class="form-control"
-                  id="name"
-                  placeholder="Nombre y apellido"
-                  type="text"
-                />
+        <form
+          action="mailto:pazospablosebastian@gmail.com"
+          class=""
+          enctype="text/plain"
+          id="form"
+          method="post"
+        >
+          <div class="row">
+            <div class="col-md-7 contacto__form" id="form">
+              <div class="row">
+                <div class="mb-3">
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Nombre y apellido"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div class="col-md mb-3">
+                  <input
+                    class="form-control"
+                    id="emailAddress"
+                    name="email"
+                    placeholder="Email"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div class="col-md mb-3">
+                  <input
+                    class="form-control"
+                    name="telefono"
+                    placeholder="Teléfono"
+                    required=""
+                    type="telefono"
+                  />
+                </div>
+                <div class="mb-2">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Cómo podemos ayudarte?"
+                    required=""
+                    type="text"
+                    value=""
+                  ></textarea>
+                </div>
               </div>
-              <div class="col-md mb-3">
-                <input
-                  class="form-control"
-                  id="emailAddress"
-                  placeholder="Email"
-                  type="email"
-                />
-              </div>
-              <div class="col-md mb-3">
-                <input
-                  class="form-control"
-                  name="phone"
-                  placeholder="Teléfono"
-                  type="phone"
-                />
-              </div>
-              <div class="mb-2">
-                <textarea
-                  class="form-control"
-                  id="msj"
-                  placeholder="Cómo podemos ayudarte?"
-                  value=""
-                ></textarea>
-              </div>
-            </div>
-            <!-- Button trigger modal -->
-            <button
-              class="btn btn__modal col-12 col-sm-12 col-md-2 mt-3"
-              data-bs-target="#exampleModal"
-              data-bs-toggle="modal"
-              type="button"
-            >
-              Enviar
-            </button>
-            <!-- Modal -->
-            <div
-              aria-hidden="true"
-              aria-labelledby="exampleModalLabel"
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      F.V. Control de Plagas
-                    </h5>
-                    <button
-                      aria-label="Close"
-                      class="btn-close btn__modal"
-                      data-bs-dismiss="modal"
-                      type="button"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    Desea modificar algo de su consulta?
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      class="btn btn__modal"
-                      data-bs-dismiss="modal"
-                      type="button"
-                    >
-                      Cerrar
-                    </button>
-                    <button class="btn btn__modal" type="button">Enviar</button>
+              <!-- Button trigger modal -->
+              <button
+                class="btn btn__modal col-12 col-sm-12 col-md-2 mt-3"
+                data-bs-target="#exampleModal"
+                data-bs-toggle="modal"
+                type="button"
+              >
+                Enviar
+              </button>
+              <!-- Modal -->
+              <div
+                aria-hidden="true"
+                aria-labelledby="exampleModalLabel"
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        F.V. Control de Plagas
+                      </h5>
+                      <button
+                        aria-label="Close"
+                        class="btn-close btn__modal"
+                        data-bs-dismiss="modal"
+                        type="button"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Desea modificar algo de su consulta?
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="btn btn__modal"
+                        data-bs-dismiss="modal"
+                        type="button"
+                      >
+                        Cerrar
+                      </button>
+                      <button class="btn btn__modal" id="submit" type="submit">
+                        Enviar
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-5 mt-3 consulta__info">
-            <div class="ml-5 container-fluid">
-              <div class="mb-3 ml-5 align-items-center">
-                <span class="fw-bold">
-                  <i class="bi bi-geo-alt-fill me-3 fs-4"> </i>
-                  San Isidro, GBA Norte, Argentina.
-                </span>
-              </div>
-              <div class="mb-3 ml-5 align-items-center">
-                <span class="fw-bold" id="content-desktop">
-                  <i class="bi bi-clock-fill me-3 fs-4"> </i>
-                  Lun. a Vie. 8hs a 18hs. / Sáb. 8:30hs a 13hs.
-                </span>
-                <span class="fw-bold" id="content-mobile">
-                  <i class="bi bi-clock-fill me-3 fs-4"> </i>
-                  Lun. a Vie. 8hs a 18hs.<br />
-                  Sáb. 8:30hs a 13hs.
-                </span>
-              </div>
-              <div class="mb-3 ml-5 align-items-center">
-                <span class="fw-bold">
-                  <i class="bi bi-envelope-fill me-3 fs-4"> </i>
-                  fvcontroldeplagas@gmail.com
-                </span>
-              </div>
-              <div class="mb-3 ml-5 align-items-center">
-                <span class="fw-bold">
-                  <i class="bi bi-telephone-fill me-3 fs-4"> </i>
-                  Teléfono: +54 9 11 6308-0879
-                </span>
-              </div>
-              <div class="mb-3 ml-5 align-items-center">
-                <span class="fw-bold">
-                  <i class="bi bi-currency-dollar me-3 fs-4"> </i>
-                </span>
-                <img
-                  alt="..."
-                  class="rounded mx-auto mb-2"
-                  src="img/visa.jpg"
-                />
-                <img
-                  alt="..."
-                  class="rounded mx-auto mb-2"
-                  src="img/american_express.jpg"
-                />
-                <img
-                  alt="..."
-                  class="rounded mx-auto mb-2"
-                  src="img/mastercard.jpg"
-                />
+            <div class="col-md-5 mt-3 consulta__info">
+              <div class="ml-5 container-fluid">
+                <div class="mb-3 ml-5 align-items-center">
+                  <span class="fw-bold">
+                    <i class="bi bi-geo-alt-fill me-3 fs-4"> </i>
+                    San Isidro, GBA Norte, Argentina.
+                  </span>
+                </div>
+                <div class="mb-3 ml-5 align-items-center">
+                  <span class="fw-bold" id="content-desktop">
+                    <i class="bi bi-clock-fill me-3 fs-4"> </i>
+                    Lun. a Vie. 8hs a 18hs. / Sáb. 8:30hs a 13hs.
+                  </span>
+                  <span class="fw-bold" id="content-mobile">
+                    <i class="bi bi-clock-fill me-3 fs-4"> </i>
+                    Lun. a Vie. 8hs a 18hs.
+                    <br />
+                    Sáb. 8:30hs a 13hs.
+                  </span>
+                </div>
+                <div class="mb-3 ml-5 align-items-center">
+                  <span class="fw-bold">
+                    <i class="bi bi-envelope-fill me-3 fs-4"> </i>
+                    fvcontroldeplagas@gmail.com
+                  </span>
+                </div>
+                <div class="mb-3 ml-5 align-items-center">
+                  <span class="fw-bold">
+                    <i class="bi bi-telephone-fill me-3 fs-4"> </i>
+                    Teléfono: +54 9 11 6308-0879
+                  </span>
+                </div>
+                <div class="mb-3 ml-5 align-items-center">
+                  <span class="fw-bold">
+                    <i class="bi bi-currency-dollar me-3 fs-4"> </i>
+                  </span>
+                  <img
+                    alt="..."
+                    class="rounded mx-auto mb-2"
+                    src="img/visa.jpg"
+                  />
+                  <img
+                    alt="..."
+                    class="rounded mx-auto mb-2"
+                    src="img/american_express.jpg"
+                  />
+                  <img
+                    alt="..."
+                    class="rounded mx-auto mb-2"
+                    src="img/mastercard.jpg"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
+        <a
+          href="mailto:pazospablosebastian@gmail.com"
+          id="botonOculto"
+          target="_blank"
+        >
+        </a>
       </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-light text-light py-4 footer__styles">
       <div class="container-fluid">
@@ -526,27 +537,27 @@
               <a
                 class="text-reset mt-3"
                 href="https://www.facebook.com/FVcontroldeplagas"
-                target="_blank"
                 name="FV Control de plagas Facebook"
                 rel="noopener"
+                target="_blank"
               >
                 <i class="bi bi-facebook"> </i>
               </a>
               <a
                 class="text-reset mt-3"
                 href="https://www.instagram.com/fvcontroldeplagas/"
-                target="_blank"
                 name="FV Control de plagas Instagram"
                 rel="noopener"
+                target="_blank"
               >
                 <i class="bi bi-instagram"> </i>
               </a>
               <a
                 class="text-reset mt-3"
                 href="https://www.linkedin.com/company/f-v-control-de-plagas/"
-                target="_blank"
                 name="FV Control de plagas Linkedin"
                 rel="noopener"
+                target="_blank"
               >
                 <i class="bi bi-linkedin"> </i>
               </a>
@@ -555,7 +566,6 @@
         </nav>
       </div>
     </footer>
-
     <a
       class="btn btn-success btn-redondo btn-wpp"
       href="https://wa.me/+5491163080879?text='Enviame%20tu%20mensaje%20para%20más%20información.'"
@@ -577,8 +587,9 @@
         ></path>
       </svg>
     </a>
+    <script src="js/index.js"></script>
     <script
-      async
+      async=""
       crossorigin="anonymous"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

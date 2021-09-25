@@ -10,6 +10,9 @@
 #content-mobile {
   display: none !important;
 }
+#botonOculto {
+  display: none;
+}
 .nav__2-mobile {
   padding: 0 4px;
 }
@@ -50,20 +53,20 @@
   color: #1c6c7c !important;
   transition: 0.3s;
 }
-
 /* Sección sobre nosotros */
+
 .section__sobre-nosotros {
   opacity: 0.8;
 }
-
 /* Servicios */
+
 .servicios__cards {
   color: #1c6c7c;
   border-style: none;
   transition: 0.3s;
 }
-
 /* Sección contacto */
+
 .section__bg {
   background-image: url("../img/bg_contacto4.jpg");
   position: relative;
@@ -87,8 +90,8 @@
 .contacto__form {
   padding-top: 1.5em;
 }
-
 /* Footer */
+
 .footer__styles {
   background-color: #1c6c7c !important;
 }
@@ -96,8 +99,8 @@
   width: 12em !important;
   height: 2em !important;
 }
-
 /* Botón de whatsapp */
+
 .btn-redondo {
   border-radius: 100%;
 }
@@ -109,8 +112,8 @@
   bottom: 20px;
   padding: 10px;
 }
-
 /* Responsive */
+
 @media only screen and (max-width: 576px) {
   .nav__icono {
     margin-left: 3px;
