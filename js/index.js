@@ -8,6 +8,6 @@ function handleSubmit(event) {
 
   const form = new FormData(this);
   // console.log(form.get('name'));
-  $buttonMailto.setAttribute("href", `mailto:pazospablosebastian@gmail.com?subject=${form.get("name")} - Tel: ${form.get("telefono")} - Email: ${form.get("email")} &body=${form.get("message")}`);
+  $buttonMailto.setAttribute("href", `mailto:fvcontroldeplagas@gmail.com?subject=${form.get("name")} - Tel: ${form.get("telefono")} - Email: ${form.get("email")} &body=${form.get("message")}`);
   $buttonMailto.click();
 }
